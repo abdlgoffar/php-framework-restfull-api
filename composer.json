@@ -1,0 +1,20 @@
+{
+    "name": "abd.goffar/create-api-web-project",
+    "description": "learning create api in php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AbdGoffar\\CreateApiWebProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abdul goffar",
+            "email": "abdulgoffardeveloper@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.7",
+        "firebase/php-jwt": "^6.3"
+    }
+}
